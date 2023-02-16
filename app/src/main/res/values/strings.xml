@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculator_app</string>
+    <string name="heading">Calculator</string>
+    <string name="firstnum">Enter first number</string>
+    <string name="secondnum">Enter second number</string>
+    <string name="addbut">+</string>
+    <string name="subbut">-</string>
+    <string name="mulbut">*</string>
+    <string name="divbut">/</string>
+    <string name="clrbut">CLEAR</string>
+    <string name="restv">Result</string>
+    <string name="reset">0.0</string>
+</resources>

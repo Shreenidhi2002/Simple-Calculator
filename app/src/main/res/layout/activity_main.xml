@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:backgroundTint="#ffff"
+
+
+    >
+<TextView
+    android:id="@+id/tvhead"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="15"
+    android:text="@string/heading"
+    android:textSize="35sp"
+    android:textStyle="bold|italic"
+    android:textColor="#67185C"
+
+    android:gravity="center"
+    android:layout_marginTop="50dp"
+
+
+   />
+    <EditText
+        android:id="@+id/etfirstno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/firstnum"
+        android:ems="15"
+        android:padding="15dp"
+        android:inputType="number"
+        android:autofillHints=""
+        android:textColor="#67185C"
+        android:gravity="end"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+
+        />
+    <EditText
+        android:id="@+id/etsecondno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/secondnum"
+        android:ems="15"
+        android:padding="15dp"
+        android:inputType="number"
+        android:autofillHints=""
+        android:gravity="end"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="#67185C"
+
+        />
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addbut"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#67185C"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btnsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subbut"
+        android:backgroundTint="#67185C"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btnmul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mulbut"
+        android:backgroundTint="#67185C"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btndiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/divbut"
+        android:backgroundTint="#67185C"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btnclr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clrbut"
+        android:backgroundTint="#67185C"
+        android:textSize="20sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#fff0"
+        >
+        <TextView
+            android:id="@+id/tvresult"
+            android:text="@string/restv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:gravity="end"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:textColor="#67185C"
+            />
+        <EditText
+            android:id="@+id/etres"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            android:padding="15dp"
+            android:ems="8"
+            android:autofillHints=""
+            android:layout_marginTop="10dp"
+            android:gravity="end"
+            android:textColor="#67185C"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
